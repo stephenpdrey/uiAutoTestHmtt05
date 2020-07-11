@@ -1,0 +1,103 @@
+{
+  "uid" : "62bb4ddeaf21e19c",
+  "name" : "test_mis_audit",
+  "fullName" : "scripts.test04_mis_audit.TestMisAudit#test_mis_audit",
+  "historyId" : "9882f7a913a37e1c698f7c88bfc6c7ef",
+  "time" : {
+    "start" : 1594137361211,
+    "stop" : 1594137398734,
+    "duration" : 37523
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test04_mis_audit.TestMisAudit object at 0x0433A070>, title = 'test001-cd001', channel = '数据库'\n\n    def test_mis_audit(self, title=\"test001-cd001\", channel=\"数据库\"):\n        # 调用审核文章业务方法\n>       self.audit.page_mis_audit(title, channel)\n\nscripts\\test04_mis_audit.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\page_mis_audit.py:64: in page_mis_audit\n    self.article_id = self.page_get_article_id()\npage\\page_mis_audit.py:43: in page_get_article_id\n    return self.base_get_text(page.mis_article_id)\nbase\\base.py:57: in base_get_text\n    log.info(\"正在对：{}元素获取文本操作！获取的文本值为：{}\".format(loc, self.base_find(loc).text))\nbase\\base.py:25: in base_find\n    poll_frequency=poll).until(lambda x: x.find_element(*loc)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"11e674afb1efae99144c9834d825161a\")>\nmethod = <function Base.base_find.<locals>.<lambda> at 0x038211E0>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\program files (x86)\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594137351770,
+      "stop" : 1594137361207,
+      "duration" : 9437
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test04_mis_audit.TestMisAudit object at 0x0433A070>, title = 'test001-cd001', channel = '数据库'\n\n    def test_mis_audit(self, title=\"test001-cd001\", channel=\"数据库\"):\n        # 调用审核文章业务方法\n>       self.audit.page_mis_audit(title, channel)\n\nscripts\\test04_mis_audit.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npage\\page_mis_audit.py:64: in page_mis_audit\n    self.article_id = self.page_get_article_id()\npage\\page_mis_audit.py:43: in page_get_article_id\n    return self.base_get_text(page.mis_article_id)\nbase\\base.py:57: in base_get_text\n    log.info(\"正在对：{}元素获取文本操作！获取的文本值为：{}\".format(loc, self.base_find(loc).text))\nbase\\base.py:25: in base_find\n    poll_frequency=poll).until(lambda x: x.find_element(*loc)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"11e674afb1efae99144c9834d825161a\")>\nmethod = <function Base.base_find.<locals>.<lambda> at 0x038211E0>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\program files (x86)\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "182ab1abca02fecb",
+      "name" : "log",
+      "source" : "182ab1abca02fecb.txt",
+      "type" : "text/plain",
+      "size" : 3086
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594137398829,
+      "stop" : 1594137401196,
+      "duration" : 2367
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_mis_audit"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisAudit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "10188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_mis_audit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62bb4ddeaf21e19c.json",
+  "parameterValues" : [ ]
+}

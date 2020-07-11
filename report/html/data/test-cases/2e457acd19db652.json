@@ -1,0 +1,105 @@
+{
+  "uid" : "2e457acd19db652",
+  "name" : "test_app_article[linux-Linux]",
+  "fullName" : "scripts.test06_app_article.TestAppArticle#test_app_article",
+  "historyId" : "6a1f62a59344e0f431d6c7f34c890b1e",
+  "time" : {
+    "start" : 1594372568681,
+    "stop" : 1594372606481,
+    "duration" : 37800
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594372443231,
+      "stop" : 1594372568679,
+      "duration" : 125448
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb7e459160971225",
+      "name" : "log",
+      "source" : "fb7e459160971225.txt",
+      "type" : "text/plain",
+      "size" : 2512
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594372606485,
+      "stop" : 1594372624737,
+      "duration" : 18252
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test06_app_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test06_app_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "click_text",
+    "value" : "'linux'"
+  }, {
+    "name" : "title",
+    "value" : "'Linux'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e457acd19db652.json",
+  "parameterValues" : [ "'linux'", "'Linux'" ]
+}

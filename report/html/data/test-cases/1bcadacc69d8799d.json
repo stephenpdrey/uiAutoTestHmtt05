@@ -1,0 +1,100 @@
+{
+  "uid" : "1bcadacc69d8799d",
+  "name" : "test_mp_login[13812345678-246810-eon]",
+  "fullName" : "scripts.test01_mp_login.TestMpLogin#test_mp_login",
+  "historyId" : "8896c0f56b428dc8dbd4a2096d7cf427",
+  "time" : {
+    "start" : 1594055602772,
+    "stop" : 1594055606555,
+    "duration" : 3783
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'eon' == 'Xeon'\n  - Xeon\n  ? -\n  + eon",
+  "statusTrace" : "self = <scripts.test01_mp_login.TestMpLogin object at 0x03C6D610>, username = '13812345678', code = '246810', expect = 'eon'\n\n    @pytest.mark.parametrize(\"username, code, expect\", read_yaml(\"mp_login.yaml\"))\n    def test_mp_login(self, username, code, expect):\n        # 调用登录业务方法\n        self.mp.page_mp_login(username, code)\n        try:\n            # 断言\n>           assert expect == self.mp.page_get_nickname()\nE           AssertionError: assert 'eon' == 'Xeon'\nE             - Xeon\nE             ? -\nE             + eon\n\nscripts\\test01_mp_login.py:29: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594055593415,
+      "stop" : 1594055602769,
+      "duration" : 9354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594055606660,
+      "stop" : 1594055609652,
+      "duration" : 2992
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test01_mp_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "8868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test01_mp_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'246810'"
+  }, {
+    "name" : "expect",
+    "value" : "'eon'"
+  }, {
+    "name" : "username",
+    "value" : "'13812345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1bcadacc69d8799d.json",
+  "parameterValues" : [ "'246810'", "'eon'", "'13812345678'" ]
+}

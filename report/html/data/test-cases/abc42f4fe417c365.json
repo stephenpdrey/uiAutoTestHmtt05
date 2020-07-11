@@ -1,0 +1,99 @@
+{
+  "uid" : "abc42f4fe417c365",
+  "name" : "test_app_article",
+  "fullName" : "scripts.test06_app_article.TestAppArticle#test_app_article",
+  "historyId" : "9dcc4d1d9b82f98f6946390032b79375",
+  "time" : {
+    "start" : 1594361829588,
+    "stop" : 1594361857418,
+    "duration" : 27830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594361706322,
+      "stop" : 1594361829584,
+      "duration" : 123262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5742443ed66cac42",
+      "name" : "log",
+      "source" : "5742443ed66cac42.txt",
+      "type" : "text/plain",
+      "size" : 1867
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594361857420,
+      "stop" : 1594361876273,
+      "duration" : 18853
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test06_app_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "1248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test06_app_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abc42f4fe417c365.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,270 @@
+{
+  "6a1f62a59344e0f431d6c7f34c890b1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0837dc308137c62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594385216436,
+        "stop" : 1594385265052,
+        "duration" : 48616
+      }
+    } ]
+  },
+  "ab2a8869d1e6f7c12ed005ff848dd345" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f9b57ffe97bc188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594384933163,
+        "stop" : 1594384940736,
+        "duration" : 7573
+      }
+    } ]
+  },
+  "7561356581f6e31adae19866f359262f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "80aae7403d67266c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594137320316,
+        "stop" : 1594137329335,
+        "duration" : 9019
+      }
+    } ]
+  },
+  "16ae6f384298b883a42d0d5c4564f9ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "595a5d50a1321a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594384913118,
+        "stop" : 1594384917806,
+        "duration" : 4688
+      }
+    } ]
+  },
+  "dff910e59219f10fae5fdc78ef383a70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78502498b2b1c992",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.itcast.toutiaoApp' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\\\Program Files (x86)\\\\Android\\\\android-sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s 127.0.0.1\\:62001 shell am start -W -n com.itcast.toutiaoApp/.MainActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability",
+      "time" : {
+        "start" : 1594384995008,
+        "stop" : 1594384995008,
+        "duration" : 0
+      }
+    } ]
+  },
+  "607a05098833bf8b2c16b635ada7fb1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1873437ff4ba6fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594110446062,
+        "stop" : 1594110447879,
+        "duration" : 1817
+      }
+    } ]
+  },
+  "8896c0f56b428dc8dbd4a2096d7cf427" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bcadacc69d8799d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'eon' == 'Xeon'\n  - Xeon\n  ? -\n  + eon",
+      "time" : {
+        "start" : 1594055602772,
+        "stop" : 1594055606555,
+        "duration" : 3783
+      }
+    } ]
+  },
+  "54d786472466397c369140c6b24336ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b90fc63ca9814fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594368553265,
+        "stop" : 1594368562629,
+        "duration" : 9364
+      }
+    } ]
+  },
+  "63e781105a8add2ee581dba9242d20e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b60854a5ada8dc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594272457136,
+        "stop" : 1594272550546,
+        "duration" : 93410
+      }
+    } ]
+  },
+  "9882f7a913a37e1c698f7c88bfc6c7ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3a2e46f59185b96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594384971429,
+        "stop" : 1594384992230,
+        "duration" : 20801
+      }
+    } ]
+  },
+  "ada98875a1b83e21056898bdd45ba609" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82e30072d2ade213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594052032426,
+        "stop" : 1594052035307,
+        "duration" : 2881
+      }
+    } ]
+  },
+  "151b53995438ea5f53433873d68a666e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8891b8cc44bb34eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594384955194,
+        "stop" : 1594384957421,
+        "duration" : 2227
+      }
+    } ]
+  },
+  "e7449fd0b2d31b82b15acabb908a84e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd6fe271b11572ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594366516593,
+        "stop" : 1594366522666,
+        "duration" : 6073
+      }
+    } ]
+  },
+  "9dcc4d1d9b82f98f6946390032b79375" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f94ceb8dfc9a036a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594371248130,
+        "stop" : 1594371285629,
+        "duration" : 37499
+      }
+    } ]
+  }
+}

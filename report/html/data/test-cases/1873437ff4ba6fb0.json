@@ -1,0 +1,137 @@
+{
+  "uid" : "1873437ff4ba6fb0",
+  "name" : "test_mis_login",
+  "fullName" : "scripts.test03_mis_login.TestMisLogin#test_mis_login",
+  "historyId" : "607a05098833bf8b2c16b635ada7fb1f",
+  "time" : {
+    "start" : 1594110446062,
+    "stop" : 1594110447879,
+    "duration" : 1817
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594110437415,
+      "stop" : 1594110446059,
+      "duration" : 8644
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "991b009c208212cb",
+      "name" : "log",
+      "source" : "991b009c208212cb.txt",
+      "type" : "text/plain",
+      "size" : 1268
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594110447881,
+      "stop" : 1594110450325,
+      "duration" : 2444
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test03_mis_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "9376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test03_mis_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e01e4dc0269c3917",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier\n  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1594110026138,
+        "stop" : 1594110026660,
+        "duration" : 522
+      }
+    }, {
+      "uid" : "16539cac893416bd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Runtime.evaluate threw exception: SyntaxError: Unexpected identifier\n  (Session info: chrome=65.0.3311.4)\n  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1594109051945,
+        "stop" : 1594109052340,
+        "duration" : 395
+      }
+    }, {
+      "uid" : "dde7c5eaf3b8be3c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier\n  (Session info: chrome=83.0.4103.97)",
+      "time" : {
+        "start" : 1594107781721,
+        "stop" : 1594107782334,
+        "duration" : 613
+      }
+    }, {
+      "uid" : "63bbc2b6e52ba656",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier\n  (Session info: chrome=83.0.4103.97)",
+      "time" : {
+        "start" : 1594107314550,
+        "stop" : 1594107315038,
+        "duration" : 488
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1873437ff4ba6fb0.json",
+  "parameterValues" : [ ]
+}

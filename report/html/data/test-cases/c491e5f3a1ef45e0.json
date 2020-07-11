@@ -1,0 +1,111 @@
+{
+  "uid" : "c491e5f3a1ef45e0",
+  "name" : "test_mp_article[test001-cd001-今天天气晴!-新增文章成功-数据库]",
+  "fullName" : "scripts.test02_mp_article.TestMpArticle#test_mp_article",
+  "historyId" : "e7449fd0b2d31b82b15acabb908a84e2",
+  "time" : {
+    "start" : 1594365253246,
+    "stop" : 1594365265282,
+    "duration" : 12036
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594365231244,
+      "stop" : 1594365253196,
+      "duration" : 21952
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2862b7b2379aedbe",
+      "name" : "log",
+      "source" : "2862b7b2379aedbe.txt",
+      "type" : "text/plain",
+      "size" : 3704
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594365265289,
+      "stop" : 1594365269224,
+      "duration" : 3935
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_mp_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "6628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_mp_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "channel",
+    "value" : "'数据库'"
+  }, {
+    "name" : "content",
+    "value" : "'今天天气晴!'"
+  }, {
+    "name" : "expect",
+    "value" : "'新增文章成功'"
+  }, {
+    "name" : "title",
+    "value" : "'test001-cd001'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c491e5f3a1ef45e0.json",
+  "parameterValues" : [ "'数据库'", "'今天天气晴!'", "'新增文章成功'", "'test001-cd001'" ]
+}

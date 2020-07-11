@@ -1,0 +1,141 @@
+[ {
+  "uid" : "7b90fc63ca9814fb",
+  "name" : "test_mp_article[test001-cd002-今天天气不好!-新增文章成功-数据库]",
+  "time" : {
+    "start" : 1594368553265,
+    "stop" : 1594368562629,
+    "duration" : 9364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80aae7403d67266c",
+  "name" : "test_mp_article",
+  "time" : {
+    "start" : 1594137320316,
+    "stop" : 1594137329335,
+    "duration" : 9019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f94ceb8dfc9a036a",
+  "name" : "test_app_article",
+  "time" : {
+    "start" : 1594371248130,
+    "stop" : 1594371285629,
+    "duration" : 37499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bcadacc69d8799d",
+  "name" : "test_mp_login[13812345678-246810-eon]",
+  "time" : {
+    "start" : 1594055602772,
+    "stop" : 1594055606555,
+    "duration" : 3783
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1873437ff4ba6fb0",
+  "name" : "test_mis_login",
+  "time" : {
+    "start" : 1594110446062,
+    "stop" : 1594110447879,
+    "duration" : 1817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595a5d50a1321a9b",
+  "name" : "test_mp_login[13812345678-246810-Xeon]",
+  "time" : {
+    "start" : 1594384913118,
+    "stop" : 1594384917806,
+    "duration" : 4688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f9b57ffe97bc188",
+  "name" : "test_mp_article[test001-cd003-今天天气不好!-新增文章成功-数据库]",
+  "time" : {
+    "start" : 1594384933163,
+    "stop" : 1594384940736,
+    "duration" : 7573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0837dc308137c62",
+  "name" : "test_app_article[linux-Linux]",
+  "time" : {
+    "start" : 1594385216436,
+    "stop" : 1594385265052,
+    "duration" : 48616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82e30072d2ade213",
+  "name" : "test_mp_login",
+  "time" : {
+    "start" : 1594052032426,
+    "stop" : 1594052035307,
+    "duration" : 2881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78502498b2b1c992",
+  "name" : "test_app_login[13812345678-246810]",
+  "time" : {
+    "start" : 1594384995008,
+    "stop" : 1594384995008,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6fe271b11572ad",
+  "name" : "test_mp_article[test001-cd001-今天天气晴!-新增文章成功-数据库]",
+  "time" : {
+    "start" : 1594366516593,
+    "stop" : 1594366522666,
+    "duration" : 6073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b60854a5ada8dc8",
+  "name" : "test_app_login",
+  "time" : {
+    "start" : 1594272457136,
+    "stop" : 1594272550546,
+    "duration" : 93410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8891b8cc44bb34eb",
+  "name" : "test_mis_login[testid-testpwd123-管理员]",
+  "time" : {
+    "start" : 1594384955194,
+    "stop" : 1594384957421,
+    "duration" : 2227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3a2e46f59185b96",
+  "name" : "test_mis_audit",
+  "time" : {
+    "start" : 1594384971429,
+    "stop" : 1594384992230,
+    "duration" : 20801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

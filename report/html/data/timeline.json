@@ -1,0 +1,213 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-VRLRK3E",
+    "children" : [ {
+      "name" : "7604-MainThread",
+      "children" : [ {
+        "name" : "test_mp_article[test001-cd002-今天天气不好!-新增文章成功-数据库]",
+        "uid" : "7b90fc63ca9814fb",
+        "parentUid" : "d9ad44dd43064861c65ae9be906fd0b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594368553265,
+          "stop" : 1594368562629,
+          "duration" : 9364
+        },
+        "flaky" : false,
+        "parameters" : [ "'数据库'", "'今天天气不好!'", "'新增文章成功'", "'test001-cd002'" ]
+      } ],
+      "uid" : "d9ad44dd43064861c65ae9be906fd0b8"
+    }, {
+      "name" : "996-MainThread",
+      "children" : [ {
+        "name" : "test_mp_article",
+        "uid" : "80aae7403d67266c",
+        "parentUid" : "e1b0c8bf217f62c3f4438f6191aa2a02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594137320316,
+          "stop" : 1594137329335,
+          "duration" : 9019
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1b0c8bf217f62c3f4438f6191aa2a02"
+    }, {
+      "name" : "8820-MainThread",
+      "children" : [ {
+        "name" : "test_app_article",
+        "uid" : "f94ceb8dfc9a036a",
+        "parentUid" : "4a797665077db3da48302f2fb602ee04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594371248130,
+          "stop" : 1594371285629,
+          "duration" : 37499
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a797665077db3da48302f2fb602ee04"
+    }, {
+      "name" : "8868-MainThread",
+      "children" : [ {
+        "name" : "test_mp_login[13812345678-246810-eon]",
+        "uid" : "1bcadacc69d8799d",
+        "parentUid" : "eb67484fb6142857273967467313316f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594055602772,
+          "stop" : 1594055606555,
+          "duration" : 3783
+        },
+        "flaky" : false,
+        "parameters" : [ "'246810'", "'eon'", "'13812345678'" ]
+      } ],
+      "uid" : "eb67484fb6142857273967467313316f"
+    }, {
+      "name" : "9376-MainThread",
+      "children" : [ {
+        "name" : "test_mis_login",
+        "uid" : "1873437ff4ba6fb0",
+        "parentUid" : "8df56db7752a0cba8d9e3d8b42f81116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594110446062,
+          "stop" : 1594110447879,
+          "duration" : 1817
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8df56db7752a0cba8d9e3d8b42f81116"
+    }, {
+      "name" : "2544-MainThread",
+      "children" : [ {
+        "name" : "test_mp_login[13812345678-246810-Xeon]",
+        "uid" : "595a5d50a1321a9b",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594384913118,
+          "stop" : 1594384917806,
+          "duration" : 4688
+        },
+        "flaky" : false,
+        "parameters" : [ "'246810'", "'Xeon'", "'13812345678'" ]
+      }, {
+        "name" : "test_mp_article[test001-cd003-今天天气不好!-新增文章成功-数据库]",
+        "uid" : "1f9b57ffe97bc188",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594384933163,
+          "stop" : 1594384940736,
+          "duration" : 7573
+        },
+        "flaky" : false,
+        "parameters" : [ "'数据库'", "'今天天气不好!'", "'新增文章成功'", "'test001-cd003'" ]
+      }, {
+        "name" : "test_app_article[linux-Linux]",
+        "uid" : "f0837dc308137c62",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594385216436,
+          "stop" : 1594385265052,
+          "duration" : 48616
+        },
+        "flaky" : false,
+        "parameters" : [ "'linux'", "'Linux'" ]
+      }, {
+        "name" : "test_app_login[13812345678-246810]",
+        "uid" : "78502498b2b1c992",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594384995008,
+          "stop" : 1594384995008,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "'246810'", "'13812345678'" ]
+      }, {
+        "name" : "test_mis_login[testid-testpwd123-管理员]",
+        "uid" : "8891b8cc44bb34eb",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594384955194,
+          "stop" : 1594384957421,
+          "duration" : 2227
+        },
+        "flaky" : false,
+        "parameters" : [ "'管理员'", "'testpwd123'", "'testid'" ]
+      }, {
+        "name" : "test_mis_audit",
+        "uid" : "e3a2e46f59185b96",
+        "parentUid" : "4c7064cc12354c971b40ef559a863fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594384971429,
+          "stop" : 1594384992230,
+          "duration" : 20801
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c7064cc12354c971b40ef559a863fd3"
+    }, {
+      "name" : "8688-MainThread",
+      "children" : [ {
+        "name" : "test_mp_login",
+        "uid" : "82e30072d2ade213",
+        "parentUid" : "a228399179e020d3a585407785aee750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594052032426,
+          "stop" : 1594052035307,
+          "duration" : 2881
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a228399179e020d3a585407785aee750"
+    }, {
+      "name" : "8880-MainThread",
+      "children" : [ {
+        "name" : "test_mp_article[test001-cd001-今天天气晴!-新增文章成功-数据库]",
+        "uid" : "bd6fe271b11572ad",
+        "parentUid" : "1709a4a9e595d2818c88342f3709f472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594366516593,
+          "stop" : 1594366522666,
+          "duration" : 6073
+        },
+        "flaky" : false,
+        "parameters" : [ "'数据库'", "'今天天气晴!'", "'新增文章成功'", "'test001-cd001'" ]
+      } ],
+      "uid" : "1709a4a9e595d2818c88342f3709f472"
+    }, {
+      "name" : "3404-MainThread",
+      "children" : [ {
+        "name" : "test_app_login",
+        "uid" : "8b60854a5ada8dc8",
+        "parentUid" : "bdde9a5043c73fd2a4af59841729ffbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594272457136,
+          "stop" : 1594272550546,
+          "duration" : 93410
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdde9a5043c73fd2a4af59841729ffbf"
+    } ],
+    "uid" : "776529a8a98b02238fad7b8c3ffb56c1"
+  } ]
+}

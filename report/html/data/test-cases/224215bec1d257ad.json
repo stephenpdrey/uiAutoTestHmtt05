@@ -1,0 +1,99 @@
+{
+  "uid" : "224215bec1d257ad",
+  "name" : "test_mis_audit",
+  "fullName" : "scripts.test04_mis_audit.TestMisAudit#test_mis_audit",
+  "historyId" : "9882f7a913a37e1c698f7c88bfc6c7ef",
+  "time" : {
+    "start" : 1594139417384,
+    "stop" : 1594139435613,
+    "duration" : 18229
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594139408413,
+      "stop" : 1594139417381,
+      "duration" : 8968
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8da1c1dab555f7",
+      "name" : "log",
+      "source" : "b8da1c1dab555f7.txt",
+      "type" : "text/plain",
+      "size" : 4420
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594139435616,
+      "stop" : 1594139438010,
+      "duration" : 2394
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_mis_audit"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisAudit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "10236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_mis_audit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "224215bec1d257ad.json",
+  "parameterValues" : [ ]
+}

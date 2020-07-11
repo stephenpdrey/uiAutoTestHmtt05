@@ -1,0 +1,144 @@
+{
+  "uid" : "f94ceb8dfc9a036a",
+  "name" : "test_app_article",
+  "fullName" : "scripts.test06_app_article.TestAppArticle#test_app_article",
+  "historyId" : "9dcc4d1d9b82f98f6946390032b79375",
+  "time" : {
+    "start" : 1594371248130,
+    "stop" : 1594371285629,
+    "duration" : 37499
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594371126361,
+      "stop" : 1594371248096,
+      "duration" : 121735
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "50f222356f20d9f6",
+      "name" : "log",
+      "source" : "50f222356f20d9f6.txt",
+      "type" : "text/plain",
+      "size" : 2239
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594371285635,
+      "stop" : 1594371310688,
+      "duration" : 25053
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test06_app_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "8820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test06_app_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2cb4d3eb33e35a2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594362042895,
+        "stop" : 1594362064920,
+        "duration" : 22025
+      }
+    }, {
+      "uid" : "abc42f4fe417c365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594361829588,
+        "stop" : 1594361857418,
+        "duration" : 27830
+      }
+    }, {
+      "uid" : "37bd105e8d5ea74f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: None",
+      "time" : {
+        "start" : 1594361335686,
+        "stop" : 1594361403601,
+        "duration" : 67915
+      }
+    }, {
+      "uid" : "95a618a7fd244746",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: None",
+      "time" : {
+        "start" : 1594360920865,
+        "stop" : 1594360948406,
+        "duration" : 27541
+      }
+    }, {
+      "uid" : "f2cb7b67bdfd8ab0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: None",
+      "time" : {
+        "start" : 1594360269817,
+        "stop" : 1594360289313,
+        "duration" : 19496
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f94ceb8dfc9a036a.json",
+  "parameterValues" : [ ]
+}

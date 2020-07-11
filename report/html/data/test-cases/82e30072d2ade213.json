@@ -1,0 +1,101 @@
+{
+  "uid" : "82e30072d2ade213",
+  "name" : "test_mp_login",
+  "fullName" : "scripts.test01_mp_login.TestMpLogin#test_mp_login",
+  "historyId" : "ada98875a1b83e21056898bdd45ba609",
+  "time" : {
+    "start" : 1594052032426,
+    "stop" : 1594052035307,
+    "duration" : 2881
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594052023422,
+      "stop" : 1594052032422,
+      "duration" : 9000
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594052035308,
+      "stop" : 1594052037852,
+      "duration" : 2544
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test01_mp_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "8688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test01_mp_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ccbd8c6ee39edb46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594051721593,
+        "stop" : 1594051724743,
+        "duration" : 3150
+      }
+    }, {
+      "uid" : "d608d3facf7c49c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594051536434,
+        "stop" : 1594051540794,
+        "duration" : 4360
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82e30072d2ade213.json",
+  "parameterValues" : [ ]
+}

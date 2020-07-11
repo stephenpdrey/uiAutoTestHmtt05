@@ -1,0 +1,13 @@
+[32mINFO    [0m root:base.py:10 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="463dc4549cfedd98a6776f66ec7c34d4")>
+[32mINFO    [0m root:page_mp_login.py:32 正在调用自媒体登录业务方法，用户名：13812345678，验证码：246810
+[32mINFO    [0m root:base.py:22 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+[32mINFO    [0m root:base.py:36 正在对：('css selector', "[placeholder='请输入手机号']")执行清空操作！
+[32mINFO    [0m root:base.py:39 正在对：('css selector', "[placeholder='请输入手机号']")执行输入：13812345678操作！
+[32mINFO    [0m root:base.py:22 正在查找元素：('css selector', "[placeholder='验证码']")
+[32mINFO    [0m root:base.py:36 正在对：('css selector', "[placeholder='验证码']")执行清空操作！
+[32mINFO    [0m root:base.py:39 正在对：('css selector', "[placeholder='验证码']")执行输入：246810操作！
+[32mINFO    [0m root:base.py:48 正在对：('css selector', '.el-button--primary')执行点击操作！
+[32mINFO    [0m root:base.py:22 正在查找元素：('css selector', '.el-button--primary')
+[32mINFO    [0m root:base.py:22 正在查找元素：('css selector', '.user-name')
+[32mINFO    [0m root:base.py:57 正在对：('css selector', '.user-name')元素获取文本操作！获取的文本值为：Xeon
+[32mINFO    [0m root:base.py:22 正在查找元素：('css selector', '.user-name')

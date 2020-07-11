@@ -1,0 +1,108 @@
+{
+  "uid" : "82315dda43ea854b",
+  "name" : "test_mis_login[testid-testpwd123-管理员]",
+  "fullName" : "scripts.test03_mis_login.TestMisLogin#test_mis_login",
+  "historyId" : "151b53995438ea5f53433873d68a666e",
+  "time" : {
+    "start" : 1594365313580,
+    "stop" : 1594365316654,
+    "duration" : 3074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594365290111,
+      "stop" : 1594365313579,
+      "duration" : 23468
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f0e3a272704a9c2",
+      "name" : "log",
+      "source" : "8f0e3a272704a9c2.txt",
+      "type" : "text/plain",
+      "size" : 1403
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594365316729,
+      "stop" : 1594365320735,
+      "duration" : 4006
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test03_mis_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "4672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test03_mis_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'管理员'"
+  }, {
+    "name" : "pwd",
+    "value" : "'testpwd123'"
+  }, {
+    "name" : "username",
+    "value" : "'testid'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82315dda43ea854b.json",
+  "parameterValues" : [ "'管理员'", "'testpwd123'", "'testid'" ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "e3a2e46f59185b96",
+  "name" : "test_mis_audit",
+  "fullName" : "scripts.test04_mis_audit.TestMisAudit#test_mis_audit",
+  "historyId" : "9882f7a913a37e1c698f7c88bfc6c7ef",
+  "time" : {
+    "start" : 1594384971429,
+    "stop" : 1594384992230,
+    "duration" : 20801
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594384960518,
+      "stop" : 1594384971428,
+      "duration" : 10910
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ceb96897836a4b5",
+      "name" : "log",
+      "source" : "8ceb96897836a4b5.txt",
+      "type" : "text/plain",
+      "size" : 4738
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594384992231,
+      "stop" : 1594384994975,
+      "duration" : 2744
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test04_mis_audit"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMisAudit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "2544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test04_mis_audit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1aa0f0b336eb5c90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594373397730,
+        "stop" : 1594373418038,
+        "duration" : 20308
+      }
+    }, {
+      "uid" : "e856564ec60c03b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594369253407,
+        "stop" : 1594369273619,
+        "duration" : 20212
+      }
+    }, {
+      "uid" : "a57028acfb6aed21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594367443436,
+        "stop" : 1594367463898,
+        "duration" : 20462
+      }
+    }, {
+      "uid" : "228dd69583efc596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594143433215,
+        "stop" : 1594143451149,
+        "duration" : 17934
+      }
+    }, {
+      "uid" : "224215bec1d257ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594139417384,
+        "stop" : 1594139435613,
+        "duration" : 18229
+      }
+    }, {
+      "uid" : "7b9cdfc9026e697a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594139128237,
+        "stop" : 1594139146375,
+        "duration" : 18138
+      }
+    }, {
+      "uid" : "bb58df1cc3e03f7f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1594137613668,
+        "stop" : 1594137651134,
+        "duration" : 37466
+      }
+    }, {
+      "uid" : "62bb4ddeaf21e19c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1594137361211,
+        "stop" : 1594137398734,
+        "duration" : 37523
+      }
+    }, {
+      "uid" : "51296a60ed541d33",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1594137176704,
+        "stop" : 1594137220553,
+        "duration" : 43849
+      }
+    }, {
+      "uid" : "6ff1674d8a353f97",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1594137090151,
+        "stop" : 1594137127629,
+        "duration" : 37478
+      }
+    }, {
+      "uid" : "81eb22d31ba5c32b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594136936871,
+        "stop" : 1594136954950,
+        "duration" : 18079
+      }
+    }, {
+      "uid" : "d3e553176f9e9d11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594136758676,
+        "stop" : 1594136777540,
+        "duration" : 18864
+      }
+    }, {
+      "uid" : "53abd13f8d2639be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594134615384,
+        "stop" : 1594134623803,
+        "duration" : 8419
+      }
+    }, {
+      "uid" : "e608ff70a48c680d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594134456707,
+        "stop" : 1594134465212,
+        "duration" : 8505
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3a2e46f59185b96.json",
+  "parameterValues" : [ ]
+}

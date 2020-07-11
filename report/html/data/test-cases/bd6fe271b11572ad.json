@@ -1,0 +1,217 @@
+{
+  "uid" : "bd6fe271b11572ad",
+  "name" : "test_mp_article[test001-cd001-今天天气晴!-新增文章成功-数据库]",
+  "fullName" : "scripts.test02_mp_article.TestMpArticle#test_mp_article",
+  "historyId" : "e7449fd0b2d31b82b15acabb908a84e2",
+  "time" : {
+    "start" : 1594366516593,
+    "stop" : 1594366522666,
+    "duration" : 6073
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594366506212,
+      "stop" : 1594366516592,
+      "duration" : 10380
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcf1990681d9764f",
+      "name" : "log",
+      "source" : "dcf1990681d9764f.txt",
+      "type" : "text/plain",
+      "size" : 3704
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594366522733,
+      "stop" : 1594366525335,
+      "duration" : 2602
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_mp_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "8880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_mp_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "channel",
+    "value" : "'数据库'"
+  }, {
+    "name" : "content",
+    "value" : "'今天天气晴!'"
+  }, {
+    "name" : "expect",
+    "value" : "'新增文章成功'"
+  }, {
+    "name" : "title",
+    "value" : "'test001-cd001'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72089fdec782d2af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594366489655,
+        "stop" : 1594366496960,
+        "duration" : 7305
+      }
+    }, {
+      "uid" : "c491e5f3a1ef45e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594365253246,
+        "stop" : 1594365265282,
+        "duration" : 12036
+      }
+    }, {
+      "uid" : "79556fc414c00763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594144165382,
+        "stop" : 1594144171633,
+        "duration" : 6251
+      }
+    }, {
+      "uid" : "935127670bffa168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594144142144,
+        "stop" : 1594144148070,
+        "duration" : 5926
+      }
+    }, {
+      "uid" : "f1db32860c864985",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594144108948,
+        "stop" : 1594144115275,
+        "duration" : 6327
+      }
+    }, {
+      "uid" : "19f28254c3170b26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594144081897,
+        "stop" : 1594144087681,
+        "duration" : 5784
+      }
+    }, {
+      "uid" : "ccbc3bd7a385287c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594143517527,
+        "stop" : 1594143524021,
+        "duration" : 6494
+      }
+    }, {
+      "uid" : "d1b29bb2725823ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594142321706,
+        "stop" : 1594142327991,
+        "duration" : 6285
+      }
+    }, {
+      "uid" : "ccf4b19284cc0ad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594142297498,
+        "stop" : 1594142303685,
+        "duration" : 6187
+      }
+    }, {
+      "uid" : "4895b8d8a0c4f42e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594140989669,
+        "stop" : 1594140998295,
+        "duration" : 8626
+      }
+    }, {
+      "uid" : "21316aec3849c52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594140957148,
+        "stop" : 1594140966036,
+        "duration" : 8888
+      }
+    }, {
+      "uid" : "5e90cb036c7a9b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594139660547,
+        "stop" : 1594139666902,
+        "duration" : 6355
+      }
+    }, {
+      "uid" : "bc7fba0f878ff684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594139628012,
+        "stop" : 1594139634204,
+        "duration" : 6192
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd6fe271b11572ad.json",
+  "parameterValues" : [ "'数据库'", "'今天天气晴!'", "'新增文章成功'", "'test001-cd001'" ]
+}

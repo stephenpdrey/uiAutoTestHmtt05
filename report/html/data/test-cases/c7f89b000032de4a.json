@@ -1,0 +1,105 @@
+{
+  "uid" : "c7f89b000032de4a",
+  "name" : "test_app_login[13812345678-246810]",
+  "fullName" : "scripts.test05_app_login.TestAppLogin#test_app_login",
+  "historyId" : "dff910e59219f10fae5fdc78ef383a70",
+  "time" : {
+    "start" : 1594363753218,
+    "stop" : 1594363841861,
+    "duration" : 88643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594363713638,
+      "stop" : 1594363753217,
+      "duration" : 39579
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29ffb25d5d11188c",
+      "name" : "log",
+      "source" : "29ffb25d5d11188c.txt",
+      "type" : "text/plain",
+      "size" : 1525
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594363841865,
+      "stop" : 1594363860316,
+      "duration" : 18451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test05_app_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "2720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test05_app_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'246810'"
+  }, {
+    "name" : "phone",
+    "value" : "'13812345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7f89b000032de4a.json",
+  "parameterValues" : [ "'246810'", "'13812345678'" ]
+}

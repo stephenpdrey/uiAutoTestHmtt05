@@ -1,0 +1,5 @@
+mp_article001:
+  title: "test001-cd003"
+  content: "今天天气不好!"
+  expect: "新增文章成功"
+  channel: "数据库"

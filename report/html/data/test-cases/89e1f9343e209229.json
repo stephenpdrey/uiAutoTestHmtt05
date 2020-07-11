@@ -1,0 +1,108 @@
+{
+  "uid" : "89e1f9343e209229",
+  "name" : "test_mp_login[13812345678-246810-Xeon]",
+  "fullName" : "scripts.test01_mp_login.TestMpLogin#test_mp_login",
+  "historyId" : "16ae6f384298b883a42d0d5c4564f9ac",
+  "time" : {
+    "start" : 1594372984129,
+    "stop" : 1594372987279,
+    "duration" : 3150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594372974755,
+      "stop" : 1594372984124,
+      "duration" : 9369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "663a357626a82760",
+      "name" : "log",
+      "source" : "663a357626a82760.txt",
+      "type" : "text/plain",
+      "size" : 1490
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594372987283,
+      "stop" : 1594372989831,
+      "duration" : 2548
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test01_mp_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "4904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test01_mp_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'246810'"
+  }, {
+    "name" : "expect",
+    "value" : "'Xeon'"
+  }, {
+    "name" : "username",
+    "value" : "'13812345678'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89e1f9343e209229.json",
+  "parameterValues" : [ "'246810'", "'Xeon'", "'13812345678'" ]
+}

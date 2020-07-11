@@ -1,0 +1,134 @@
+{
+  "uid" : "80aae7403d67266c",
+  "name" : "test_mp_article",
+  "fullName" : "scripts.test02_mp_article.TestMpArticle#test_mp_article",
+  "historyId" : "7561356581f6e31adae19866f359262f",
+  "time" : {
+    "start" : 1594137320316,
+    "stop" : 1594137329335,
+    "duration" : 9019
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594137310799,
+      "stop" : 1594137320313,
+      "duration" : 9514
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "89b269f0742520fd",
+      "name" : "log",
+      "source" : "89b269f0742520fd.txt",
+      "type" : "text/plain",
+      "size" : 3704
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594137329337,
+      "stop" : 1594137331712,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test02_mp_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMpArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test02_mp_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3e00163e443bbd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594137293653,
+        "stop" : 1594137300119,
+        "duration" : 6466
+      }
+    }, {
+      "uid" : "81ac6b96190a758c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594096968240,
+        "stop" : 1594096975246,
+        "duration" : 7006
+      }
+    }, {
+      "uid" : "2581e093a9eaa7f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594096869719,
+        "stop" : 1594096875752,
+        "duration" : 6033
+      }
+    }, {
+      "uid" : "f3992e5e48951866",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'swith_to'",
+      "time" : {
+        "start" : 1594096762620,
+        "stop" : 1594096766262,
+        "duration" : 3642
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80aae7403d67266c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid" : "f0837dc308137c62",
+  "name" : "test_app_article[linux-Linux]",
+  "fullName" : "scripts.test06_app_article.TestAppArticle#test_app_article",
+  "historyId" : "6a1f62a59344e0f431d6c7f34c890b1e",
+  "time" : {
+    "start" : 1594385216436,
+    "stop" : 1594385265052,
+    "duration" : 48616
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594385086158,
+      "stop" : 1594385216434,
+      "duration" : 130276
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c9e97114eaeda7f",
+      "name" : "log",
+      "source" : "9c9e97114eaeda7f.txt",
+      "type" : "text/plain",
+      "size" : 2512
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594385265057,
+      "stop" : 1594385284051,
+      "duration" : 18994
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test06_app_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAppArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VRLRK3E"
+  }, {
+    "name" : "thread",
+    "value" : "2544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test06_app_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "click_text",
+    "value" : "'linux'"
+  }, {
+    "name" : "title",
+    "value" : "'Linux'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0cc9aa2c8bc1c7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594373692921,
+        "stop" : 1594373731691,
+        "duration" : 38770
+      }
+    }, {
+      "uid" : "2e457acd19db652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594372568681,
+        "stop" : 1594372606481,
+        "duration" : 37800
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0837dc308137c62.json",
+  "parameterValues" : [ "'linux'", "'Linux'" ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'eon' == 'Xeon'\n  - Xeon\n  ? -\n  + eon",
+      "children" : [ {
+        "name" : "test_mp_login[13812345678-246810-eon]",
+        "uid" : "1bcadacc69d8799d",
+        "parentUid" : "c08d4953f312d4b081d2e11408779021",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594055602772,
+          "stop" : 1594055606555,
+          "duration" : 3783
+        },
+        "flaky" : false,
+        "parameters" : [ "'246810'", "'eon'", "'13812345678'" ]
+      } ],
+      "uid" : "c08d4953f312d4b081d2e11408779021"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.itcast.toutiaoApp' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command ''D:\\\\Program Files (x86)\\\\Android\\\\android-sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s 127.0.0.1\\:62001 shell am start -W -n com.itcast.toutiaoApp/.MainActivity -S' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability",
+      "children" : [ {
+        "name" : "test_app_login[13812345678-246810]",
+        "uid" : "78502498b2b1c992",
+        "parentUid" : "fa8d246878f69f006645e058805d016f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594384995008,
+          "stop" : 1594384995008,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "'246810'", "'13812345678'" ]
+      } ],
+      "uid" : "fa8d246878f69f006645e058805d016f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
